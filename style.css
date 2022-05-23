@@ -1,0 +1,91 @@
+header{
+    position: absolute;
+    width: 1920px;
+    height: 80px;
+    left: 0px;
+    top: 0px;       
+    background: #332FED;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
+    }
+
+#logo{
+    position: absolute;
+    width: 250px;
+    height: 70px;
+    left: 840px;
+    top: 5px;
+}
+
+#buttons{
+    position: absolute;
+    width: 240px;
+    height: 45px;
+    left: 1650px;
+    top: 19px;
+}
+
+#menu{
+    position: absolute;
+    width: 67px;
+    height: 67px;
+    left: 13px;
+    top: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.retangulos{
+    position: relative;
+    width: 351px;
+    height: 137px;  
+    margin-top: 6%;
+    margin-right: 20px;
+
+    background: #332FED;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.logo_dash{
+    position: absolute;
+    top: 60%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+}
+
+span{
+    position: absolute;
+    font-size: 40px;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+
+    color: aliceblue;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h1{
+    text-align: center;
+}
+
+div.retangulo_filtro {
+    width: 105vh;
+    height: 15vh;
+    border: 4px solid; /* As 4 bordas sólidas com 25px de espessura */
+    border-color: #332FED; /* cores: topo, direita, inferior, esquerda */
+    border-radius: 10px;
+    padding: 5vh;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+ 
+p{
+    font-size: 25px;
+    display: inline;
+    margin-right: 100px;
+    margin-top: 0px;
+}  
+
